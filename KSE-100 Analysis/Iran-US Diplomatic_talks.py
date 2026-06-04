@@ -25,3 +25,13 @@ change = np.insert(change, 0, 0)
 data['Changes']= change
 
 window_returns = data.loc[window, 'Changes']
+stdv = np.std(data['Changes'])
+
+print(stdv)
+print(data.loc[window,['Date','Changes']])
+
+# 1. Create a 2-story plotting layout (Top chart for Price, Bottom chart for Changes)
+fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(11, 7))
+
+# ---------------------------------------------------------
+# TOP PANEL: KSE-100 Price and Moving Average
