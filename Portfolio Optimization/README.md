@@ -45,4 +45,5 @@ $$\frac{\partial \mathcal{L}}{\partial \lambda} = w_1 + w_2 + w_3 - 1 = 0$$
 ├── Karachi 100 Historical Data.csv   # Daily historical KSE-100 index data
 ├── portfolio_optimizer.py            # Main calculation and visualization script
 ├── requirements.txt                  # Python dependencies
-└── README.md                         # Project documentation
+├── README.md                         # Project documentation 
+└── portfolio_analysis.png
