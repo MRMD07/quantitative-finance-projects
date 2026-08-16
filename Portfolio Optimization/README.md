@@ -37,7 +37,7 @@ $$\frac{\partial \mathcal{L}}{\partial \lambda} = w_1 + w_2 + w_3 - 1 = 0$$
 
 ---
 
-## 📁 Repository Structure
+## 📁 Folder Structure
 
 ```text
 ├── Bitcoin Historical Data.csv       # Daily historical BTC price data
