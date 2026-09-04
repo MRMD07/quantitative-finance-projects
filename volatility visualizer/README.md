@@ -41,9 +41,3 @@ and solves for $\sigma \in [0.01, 3.0]$ dynamically.
 * **Numerical Methods:** `scipy` (`optimize.brentq`, `interpolate.griddata`, `stats.norm`)
 * **Interactive 3D Graphics:** `plotly`
 
-## Installation & Setup
-
-1. **Clone the repository:**
-```bash
-git clone [https://github.com/your-username/volatility-surface-visualizer.git](https://github.com/your-username/volatility-surface-visualizer.git)
-cd volatility-surface-visualizer
